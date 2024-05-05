@@ -30,7 +30,7 @@ function App() {
        <Route path="/sign-up" element={
        <OpenRoute>
         <Sign/>
-      </OpenRoute>
+       </OpenRoute>
        }/>
       <Route path="/verify-email" element={
       <OpenRoute>
