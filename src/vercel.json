@@ -1,8 +1,13 @@
 {
-    "routes": [
+    "rewrites": [
       {
-        "src": "/(.*)",
-        "dest": "/index.html"
+        "source": "/update-password/:token",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
       }
     ]
   }
+  
