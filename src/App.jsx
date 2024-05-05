@@ -42,7 +42,7 @@ function App() {
       <Forgot/>
       </OpenRoute>
       }/>
-      <Route path="update-password/:token" element={
+      <Route path="/update-password/:token" element={
       <OpenRoute>
       <Change/>
      </OpenRoute>
