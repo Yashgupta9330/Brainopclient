@@ -1,5 +1,5 @@
 
-const BASE_URL = "http://localhost:4000"
+const BASE_URL = "https://brainserver-j9kl.onrender.com"
 
 
 
